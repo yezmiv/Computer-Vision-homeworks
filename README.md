@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Image Enhancement on Synthetically Degraded Images
 
 Comparison of classical image enhancement techniques on color images degraded with reduced contrast and additive Gaussian noise. 
@@ -44,7 +43,4 @@ The synthetic degradation is applied using fixed parameters for reproducibility:
 * ALPHA = 0.6 and BETA = 0 for contrast reduction.
 * MEAN = 0 and STD = 15 for Gaussian noise.
 * SEED = 42 for reproducibility.
-=======
-# Computer-Vision-homeworks
-Repository containing the homework assignments for the Computer Vision course.
->>>>>>> 6ade9b152a43ab3d41c5889a0111d6ca35089d8b
+
