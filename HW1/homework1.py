@@ -8,9 +8,10 @@ alpha = 0.6 #contrast control if is <1 contrast is reduced
 beta = 0    #brightness control
 sigma = 15     #gaussian noise 
 
-os.makedirs("results", exist_ok=True) #create the images directory 
-os.makedirs("degraded", exist_ok=True) #create the degraded images directory
-os.makedirs("confronto", exist_ok=True) #create the confronto images directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+os.makedirs(os.path.join(BASE_DIR, "results"), exist_ok=True) #create the images directory 
+os.makedirs(os.path.join(BASE_DIR, "degraded"), exist_ok=True) #create the degraded images directory
+os.makedirs(os.path.join(BASE_DIR, "confronto"), exist_ok=True) #create the confronto images directory
 
 images = ["parigi.png", "cavallo.png", "mare.png"]
 #img = cv2.imread("images/parigi.png", 1) 
@@ -52,7 +53,7 @@ for nome_img in images:
     rumore = rng.normal(0, sigma, img.shape) #noise gaussiano
     img_degraded = np.clip(img_degraded.astype(np.float32) + rumore, 0, 255).astype(np.uint8) #add noise and clip to [0,255]
    
-    cv2.imwrite(f"degraded/{base}_degraded.png", img_degraded)
+    cv2.imwrite(os.path.join(BASE_DIR, "degraded", f"{base}_degraded.png"), img_degraded)
 
     #METHODS: 1-baseline, 2-linear contrast stretching, 3-histogram equalization, 4-denoising + contrast recovery
    
