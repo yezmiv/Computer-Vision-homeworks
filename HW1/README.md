@@ -14,9 +14,10 @@ HW1/ is the main folder containing the project:
 * homework1.py contains the complete image processing pipeline, including image degradation, enhancement methods, visualization, and quantitative evaluation.
 * requirements.txt lists all required Python dependencies.
 * README.md provides project documentation and instructions for running the pipeline.
+* report.pdf contains the project report.
 
 ## Requirements
-The project uses Python 3.9+ and a virtual environment.
+The project uses Python 3.14.3 and a virtual environment.
 
 Create and activate the virtual environment:
 
@@ -34,7 +35,7 @@ Run the pipeline with:
 ```bash
 python homework1.py
 ```
-The generated images and evaluation metrics are saved in the results/ folder.
+The generated images and evaluation metrics are saved in their respective folders.
 
 ## Degradation Parameters
 
