@@ -1,0 +1,20 @@
+# Ambiente virtuale
+venv/
+.venv/
+
+# Dataset
+data/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Output per ora
+results/*.png
+results/*.json
+
+# macOS
+.DS_Store
+
+checkpoints/
+.vscode/
