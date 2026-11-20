@@ -1,0 +1,38 @@
+class_name,train,val,test,total
+Abyssinian,80,20,98,198
+American Bulldog,80,20,100,200
+American Pit Bull Terrier,80,20,100,200
+Basset Hound,80,20,100,200
+Beagle,80,20,100,200
+Bengal,80,20,100,200
+Birman,80,20,100,200
+Bombay,77,19,88,184
+Boxer,80,20,99,199
+British Shorthair,80,20,100,200
+Chihuahua,80,20,100,200
+Egyptian Mau,74,19,97,190
+English Cocker Spaniel,77,19,100,196
+English Setter,80,20,100,200
+German Shorthaired,80,20,100,200
+Great Pyrenees,80,20,100,200
+Havanese,80,20,100,200
+Japanese Chin,80,20,100,200
+Keeshond,80,20,99,199
+Leonberger,80,20,100,200
+Maine Coon,80,20,100,200
+Miniature Pinscher,80,20,100,200
+Newfoundland,77,19,100,196
+Persian,80,20,100,200
+Pomeranian,80,20,100,200
+Pug,80,20,100,200
+Ragdoll,80,20,100,200
+Russian Blue,80,20,100,200
+Saint Bernard,80,20,100,200
+Samoyed,80,20,100,200
+Scottish Terrier,80,20,99,199
+Shiba Inu,80,20,100,200
+Siamese,79,20,100,199
+Sphynx,80,20,100,200
+Staffordshire Bull Terrier,80,20,89,189
+Wheaten Terrier,80,20,100,200
+Yorkshire Terrier,80,20,100,200
