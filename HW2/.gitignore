@@ -9,12 +9,8 @@ data/
 __pycache__/
 *.pyc
 
-# Output per ora
-results/*.png
-results/*.json
 
 # macOS
 .DS_Store
 
-checkpoints/
 .vscode/
