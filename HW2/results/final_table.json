@@ -1,0 +1,119 @@
+{
+  "full": {
+    "test_acc": 0.8231125647315345,
+    "test_f1_macro": 0.8204073621057179,
+    "n_trainable_params": 1555781,
+    "top_confused": [
+      {
+        "true": "American Pit Bull Terrier",
+        "pred": "Staffordshire Bull Terrier",
+        "errors": 31
+      },
+      {
+        "true": "Ragdoll",
+        "pred": "Birman",
+        "errors": 14
+      },
+      {
+        "true": "Chihuahua",
+        "pred": "Shiba Inu",
+        "errors": 12
+      },
+      {
+        "true": "American Pit Bull Terrier",
+        "pred": "American Bulldog",
+        "errors": 12
+      },
+      {
+        "true": "American Pit Bull Terrier",
+        "pred": "German Shorthaired",
+        "errors": 11
+      }
+    ],
+    "train_acc": 0.9925271739130435,
+    "val_acc": 0.8817934782608695,
+    "time_s": 584.3539180755615,
+    "lr": 0.0001,
+    "best_epoch": 14
+  },
+  "head": {
+    "test_acc": 0.8650858544562551,
+    "test_f1_macro": 0.8636373594738704,
+    "n_trainable_params": 628773,
+    "top_confused": [
+      {
+        "true": "American Pit Bull Terrier",
+        "pred": "Staffordshire Bull Terrier",
+        "errors": 17
+      },
+      {
+        "true": "Birman",
+        "pred": "Ragdoll",
+        "errors": 16
+      },
+      {
+        "true": "Russian Blue",
+        "pred": "British Shorthair",
+        "errors": 15
+      },
+      {
+        "true": "Ragdoll",
+        "pred": "Birman",
+        "errors": 13
+      },
+      {
+        "true": "American Pit Bull Terrier",
+        "pred": "American Bulldog",
+        "errors": 13
+      }
+    ],
+    "train_acc": 0.9612771739130435,
+    "val_acc": 0.8872282608695652,
+    "time_s": 355.6483459472656,
+    "lr": 0.0001,
+    "best_epoch": 14
+  },
+  "feat_LinearSVC": {
+    "test_acc": 0.7765058599073317,
+    "test_f1_macro": 0.7743731923920282,
+    "n_trainable_params": 0,
+    "fit_time_s": 253.1542830467224,
+    "time_s": 295.8250937461853,
+    "val_acc": 0.813858695652174
+  },
+  "feat_LogisticRegression": {
+    "test_acc": 0.8473698555464704,
+    "test_f1_macro": 0.8458072460559602,
+    "n_trainable_params": 0,
+    "fit_time_s": 0.28534603118896484,
+    "time_s": 42.956156730651855,
+    "val_acc": 0.8573369565217391,
+    "top_confused": [
+      {
+        "true": "American Pit Bull Terrier",
+        "pred": "American Bulldog",
+        "errors": 17
+      },
+      {
+        "true": "American Pit Bull Terrier",
+        "pred": "Staffordshire Bull Terrier",
+        "errors": 16
+      },
+      {
+        "true": "Ragdoll",
+        "pred": "Birman",
+        "errors": 15
+      },
+      {
+        "true": "Birman",
+        "pred": "Ragdoll",
+        "errors": 13
+      },
+      {
+        "true": "Maine Coon",
+        "pred": "Bengal",
+        "errors": 13
+      }
+    ]
+  }
+}

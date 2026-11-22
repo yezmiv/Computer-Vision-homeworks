@@ -1,0 +1,119 @@
+{
+  "full": {
+    "test_acc": 0.7427091850640501,
+    "test_f1_macro": 0.7401403288425441,
+    "n_trainable_params": 1555781,
+    "top_confused": [
+      {
+        "true": "Birman",
+        "pred": "Siamese",
+        "errors": 29
+      },
+      {
+        "true": "English Setter",
+        "pred": "English Cocker Spaniel",
+        "errors": 23
+      },
+      {
+        "true": "Leonberger",
+        "pred": "Newfoundland",
+        "errors": 19
+      },
+      {
+        "true": "Russian Blue",
+        "pred": "British Shorthair",
+        "errors": 18
+      },
+      {
+        "true": "Ragdoll",
+        "pred": "Birman",
+        "errors": 17
+      }
+    ],
+    "train_acc": 0.9534646739130435,
+    "val_acc": 0.8274456521739131,
+    "time_s": 592.8839070796967,
+    "lr": 0.001,
+    "best_epoch": 10
+  },
+  "head": {
+    "test_acc": 0.8588171163804852,
+    "test_f1_macro": 0.8580132712100813,
+    "n_trainable_params": 628773,
+    "top_confused": [
+      {
+        "true": "Staffordshire Bull Terrier",
+        "pred": "American Pit Bull Terrier",
+        "errors": 22
+      },
+      {
+        "true": "British Shorthair",
+        "pred": "Russian Blue",
+        "errors": 20
+      },
+      {
+        "true": "American Pit Bull Terrier",
+        "pred": "Staffordshire Bull Terrier",
+        "errors": 19
+      },
+      {
+        "true": "Bengal",
+        "pred": "Maine Coon",
+        "errors": 18
+      },
+      {
+        "true": "Ragdoll",
+        "pred": "Birman",
+        "errors": 15
+      }
+    ],
+    "train_acc": 0.993546195652174,
+    "val_acc": 0.8926630434782609,
+    "time_s": 357.2403829097748,
+    "lr": 0.001,
+    "best_epoch": 15
+  },
+  "feat_LinearSVC": {
+    "test_acc": 0.7765058599073317,
+    "test_f1_macro": 0.7743731923920282,
+    "n_trainable_params": 0,
+    "fit_time_s": 257.3156340122223,
+    "time_s": 301.7137670516968,
+    "val_acc": 0.813858695652174
+  },
+  "feat_LogisticRegression": {
+    "test_acc": 0.8473698555464704,
+    "test_f1_macro": 0.8458072460559602,
+    "n_trainable_params": 0,
+    "fit_time_s": 0.2973949909210205,
+    "time_s": 44.69552803039551,
+    "val_acc": 0.8573369565217391,
+    "top_confused": [
+      {
+        "true": "American Pit Bull Terrier",
+        "pred": "American Bulldog",
+        "errors": 17
+      },
+      {
+        "true": "American Pit Bull Terrier",
+        "pred": "Staffordshire Bull Terrier",
+        "errors": 16
+      },
+      {
+        "true": "Ragdoll",
+        "pred": "Birman",
+        "errors": 15
+      },
+      {
+        "true": "Birman",
+        "pred": "Ragdoll",
+        "errors": 13
+      },
+      {
+        "true": "Maine Coon",
+        "pred": "Bengal",
+        "errors": 13
+      }
+    ]
+  }
+}

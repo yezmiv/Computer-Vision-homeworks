@@ -1,0 +1,22 @@
+{
+  "approach": "feat",
+  "n_trainable_params": 0,
+  "extraction_time_s": 42.67081069946289,
+  "feature_dim": 576,
+  "classifiers": {
+    "LinearSVC": {
+      "fit_time_s": 253.1542830467224,
+      "val_acc": 0.813858695652174,
+      "test_acc": 0.7765058599073317,
+      "test_f1_macro": 0.7743731923920282,
+      "train_acc": 1.0
+    },
+    "LogisticRegression": {
+      "fit_time_s": 0.28534603118896484,
+      "val_acc": 0.8573369565217391,
+      "test_acc": 0.8473698555464704,
+      "test_f1_macro": 0.8458072460559602,
+      "train_acc": 1.0
+    }
+  }
+}
